@@ -2,3 +2,13 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+application initializes 
+    application opens to grid defining specific dimensions defined as x,y coordinates 
+        customer inputs item they're searching for either using an item number or item name
+        computer searches through list for a variable that associates string or item number with specific x,y location 
+        if no variable is found print "Item not found. Please check to ensure spelling is correct or try searching with item number."
+        if variable exists program displays location 
+        using device's location as starting point, the app directs the customer either north, south, east, or west each space in the grid until desired location is reached 
+end 
+
+

@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+program initializes
+    user scans packages using device
+    beginning at 0, for every package scanned computer prints x+2 where x=the previous number of packages scanned
+    computer continues until reaching 50 then prints "Case complete." 
+    computer starts over at 0
+end
+
+
+
